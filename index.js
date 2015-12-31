@@ -53,7 +53,7 @@ gh.issues.repoIssues({
 
     rollcall.attendees = _.uniq(rollcall.attendees);
 
-    fs.writeFile('rollcall-2015.json', JSON.stringify(rollcall, null, 2), function (err) {
+    fs.writeFile('rollcall-' + argh.year + '.json', JSON.stringify(rollcall, null, 2), function (err) {
       if (err) console.error(err)
       console.log('done')
     });
