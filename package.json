@@ -10,7 +10,7 @@
   "author": "Ian Crowther <ian@nexttick.io> (http://nexttick.io)",
   "license": "ISC",
   "dependencies": {
-    "argh": "^0.1.4",
+    "argh": "^1.0.0",
     "async": "^3.2.0",
     "github": "^0.2.4",
     "lodash": "^3.10.1"
